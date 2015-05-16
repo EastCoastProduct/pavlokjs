@@ -22,5 +22,9 @@
   "homepage": "https://github.com/EastCoastProduct/pavlokjs",
   "dependencies": {
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sinon": "^1.14.1"
   }
 }
