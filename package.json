@@ -1,0 +1,26 @@
+{
+  "name": "pavlokjs",
+  "version": "1.0.0",
+  "description": "JavaScript Wrapper for the Pavlok API",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EastCoastProduct/pavlokjs.git"
+  },
+  "keywords": [
+    "pavlok",
+    "api"
+  ],
+  "author": "Christopher Swenor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EastCoastProduct/pavlokjs/issues"
+  },
+  "homepage": "https://github.com/EastCoastProduct/pavlokjs",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
