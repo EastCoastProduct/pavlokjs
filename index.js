@@ -18,7 +18,7 @@ var uriBuilder = function(t, v) {
 var vibrateDevice = function(power) {
   request(uriBuilder('vibrate', power), function(error, response, body){
     if (!error && response.statusCode == 200) {
-      console.log('Vibrated at: ' + power); // Show the HTML for the Google homepage.
+      console.log('Vibrated at: ' + power);
     }
   });
 };
@@ -26,7 +26,7 @@ var vibrateDevice = function(power) {
 var shockDevice = function(power) {
   request(uriBuilder('shock', power), function(error, response, body){
     if (!error && response.statusCode == 200) {
-      console.log('Shocked at: ' + power); // Show the HTML for the Google homepage.
+      console.log('Shocked at: ' + power);
     }
   });
 };
@@ -34,7 +34,7 @@ var shockDevice = function(power) {
 var ledDevice = function(number) {
   request(uriBuilder('led', number), function(error, response, body){
     if (!error && response.statusCode == 200) {
-      console.log('Blinked LEDs: ' + number); // Show the HTML for the Google homepage.
+      console.log('Blinked LEDs: ' + number);
     }
   });
 };
@@ -42,7 +42,7 @@ var ledDevice = function(number) {
 var beepDevice = function(frequency) {
   request(uriBuilder('beep', frequency), function(error, response, body){
     if (!error && response.statusCode == 200) {
-      console.log('Beeped at: ' + frequency); // Show the HTML for the Google homepage.
+      console.log('Beeped at: ' + frequency);
     }
   });
 };
