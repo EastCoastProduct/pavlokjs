@@ -4,7 +4,7 @@
   "description": "JavaScript Wrapper for the Pavlok API",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
