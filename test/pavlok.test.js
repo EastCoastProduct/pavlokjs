@@ -1,6 +1,6 @@
 var sinon = require('sinon'),
     request = require('request'),
-    pavlok = require('./index.js');
+    pavlok = require('../index.js');
 
 var auth = {
   objectId: 'TEST'
