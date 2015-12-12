@@ -1,10 +1,10 @@
 {
   "name": "pavlokjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript Wrapper for the Pavlok API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "./node_modules/.bin/mocha ./test"
   },
   "repository": {
     "type": "git",
