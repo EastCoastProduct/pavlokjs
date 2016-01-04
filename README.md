@@ -27,7 +27,7 @@ pavlok.beep(frequency).shock(power);
 
 Supported pavlok functions
 --------------------------
-For vibrate and shock, value is anywehre from 0-255. For beep and led, value is anywhere from 1-4.
+For vibrate and shock, value is anywehre from 0-255. For beep and blink(LED), value is anywhere from 1-4.
 
     beep(frequency)
     blink(frequency)
