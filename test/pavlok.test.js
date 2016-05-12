@@ -16,7 +16,7 @@ pavlok.init(auth);
 describe('pavlok functionality', function() {
   beforeEach(function() {
     requestStub.reset();
-  })
+  });
 
   it('beep', function() {
     pavlok.beep(100);
